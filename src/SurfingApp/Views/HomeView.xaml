@@ -9,9 +9,6 @@
     BackgroundColor="White">
     <ContentPage.Resources>
         <ResourceDictionary>
-
-            <converters:ToUpperConverter x:Key="ToUpperConverter" />
-
             <Style x:Key="HeaderLayoutStyle" TargetType="Grid">
                 <Setter Property="VerticalOptions" Value="Center" />
                 <Setter Property="Margin" Value="24, 6" />
